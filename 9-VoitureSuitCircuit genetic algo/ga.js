@@ -29,8 +29,10 @@ function nextGeneration() {
     let index = 0;
 
     // Algorithme de la roulette
-    // On tire un nombre r au hasard, par exemple
-    // 0.5
+    // On tire au hasard une voiture parmis les meilleures,
+    // mais avec une probabilité proportionnelle à la fitness
+    // la voiture qui est allée le plus loin a plus de chances
+    // d'être choisie que les autres
     // On parcourt le tableau des voitures en enlevant
     // la fitness à r et on s'arrête dès que r <= 0;
     // la valeur de index est le véhicule choisi

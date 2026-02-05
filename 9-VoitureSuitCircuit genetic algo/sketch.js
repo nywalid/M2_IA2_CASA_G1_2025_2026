@@ -128,7 +128,6 @@ function draw() {
     }
 
     // Si jamais on a plus de voitures, on passe à la génération suivante
-    // MB: ça me semble inutile, car on a déjà un test pour passer à la génération suivante
     if (population.length == 0) {
       buildTrack();
       nextGeneration();
